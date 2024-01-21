@@ -5,7 +5,7 @@ html {
 		}
 
 body {
-			display: inline-flexbox;
+			display: flex;
 			align-items: center;
 			align-content: center;
 			justify-content: center;
