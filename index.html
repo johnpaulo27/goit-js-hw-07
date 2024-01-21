@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>basicLightbox Demo</title>
+	<link rel="stylesheet" href="../dist/basicLightbox.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+  <li class="gallery__item">
+    <a class="gallery__link" href="/Images/pic1.jpg">
+      <img
+        class="gallery__image"
+        src="/Images/pic1.jpg"
+        data-source="large-image.jpg"
+        alt="kakashi"
+        width="320" height="200"
+      />
+    </a>
+  </li>
+  <li class="gallery__item">
+    <a class="gallery__link" href="/Images/pic2.jpg">
+      <img
+        class="gallery__image"
+        src="/Images/pic2.jpg"
+        data-source="large-image.jpg"
+        alt="girl-lovely"
+        width="320" height="200"
+      />
+    </a>
+  </li>
+  <li class="gallery__item">
+    <a class="gallery__link" href="/Images/pic3.jpg">
+      <img
+        class="gallery__image"
+        src="/Images/pic3.jpg"
+        data-source="large-image.jpg"
+        alt="girl-longhair"
+        width="320" height="200"
+      />
+    </a>
+  </li>
+  <li class="gallery__item">
+    <a class="gallery__link" href="/Images/pic4.jpg">
+      <img
+        class="gallery__image"
+        src="/Images/pic4.jpg"
+        data-source="large-image.jpg"
+        alt="girl-emo"
+        width="320" height="200"
+      />
+    </a>
+  </li>
+
+</body>
+
+	<script>
+function openModal(imageSrc) {
+        document.getElementById('modalImage').src = imageSrc;
+        document.getElementById('myModal').style.display = 'flex';
+    }
+
+    function closeModal() {
+        document.getElementById('myModal').style.display = 'none';
+    }
+</script>
+
+
