@@ -1,59 +1,18 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="utf-8">
-	<title>basicLightbox Demo</title>
-	<link rel="stylesheet" href="../dist/basicLightbox.min.css">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-</head>
-<body>
-  <li class="gallery__item">
-    <a class="gallery__link" href="Images/pic1.jpg">
-      <img
-        class="gallery__image"
-        src="Images/pic1.jpg"
-        data-source="Images/pic1.jpg"
-        alt="kakashi"
-        width="320" height="200"
-      />
-    </a>
-  </li>
-  <li class="gallery__item">
-    <a class="gallery__link" href="Images/pic2.jpg">
-      <img
-        class="gallery__image"
-        src="Images/pic2.jpg"
-        data-source="Images/pic2.jpg"
-        alt="girl-lovely"
-        width="320" height="200"
-      />
-    </a>
-  </li>
-  <li class="gallery__item">
-    <a class="gallery__link" href="Images/pic3.jpg">
-      <img
-        class="gallery__image"
-        src="Images/pic3.jpg"
-        data-source="Images/pic3.jpg"
-        alt="girl-longhair"
-        width="320" height="200"
-      />
-    </a>
-  </li>
-  <li class="gallery__item">
-    <a class="gallery__link" href="Images/pic4.jpg">
-      <img
-        class="gallery__image"
-        src="Images/pic4.jpg"
-        data-source="Images/pic4.jpg"
-        alt="girl-emo"
-        width="320" height="200"
-      />
-    </a>
-  </li>
-
-</body>
-
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Homework 7</title>
+    <link rel="stylesheet" href="css/common.css" />
+  </head>
+  <body>
+    <ul>
+      <li><a href="01-gallery.html">Image gallery</a></li>
+      <li><a href="02-lightbox.html">SimpleLightbox library</a></li>
+    </ul>
+  </body>
 	<script>
 function openModal(imageSrc) {
         document.getElementById('modalImage').src = imageSrc;
@@ -64,5 +23,6 @@ function openModal(imageSrc) {
         document.getElementById('myModal').style.display = 'none';
     }
 </script>
+</html>
 
 
