@@ -24,10 +24,11 @@
   }
   
   .gallery-image {
-	width: 20%;
-	height: 20%;
+	width: 100%;
+	height: 100%;
 	display: inline-flex;
 	transition: transform 0.3s ease-in-out; /* Add transition for smooth scaling */
+	z-index: 5;
   }
   
   /* Add hover effect for enlargement */
